@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 def load_dataset():
 
     data = pd.read_csv(
-        "datahub/ev_battery_dataset.csv"
+        "ev_battery_dataset.csv"
     )
 
     return data
